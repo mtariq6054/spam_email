@@ -1,17 +1,6 @@
-Headings: Use # for headings (# Heading 1, ## Heading 2, etc.).
-
-Text formatting: You can make text bold (**bold text**), italic (*italic text*), or add inline code ( inline code ).
-
-Lists: Create ordered lists (1. Item 1, 2. Item 2) or unordered lists (- Item 1, - Item 2).
-
-Code blocks: Use triple backticks (```) to create code blocks.
-
-Links: [Link text](URL) to create clickable links.
-
-Images: ![Alt text](image URL) to embed images.
-
 
 # Spam Email Classifier Documentation
+
 **This documentation provides an overview of the Spam Email Classifier project, which aims to classify emails as spam or not spam using machine learning techniques. The project includes building a classification model and integrating this model into a web application using streamlit , and creating a user interface for email classification.**
 
 # Project Overview
@@ -56,3 +45,9 @@ Images: ![Alt text](image URL) to embed images.
 - for quick results 
 - using small functions
 
+ Links: [Learn about Count Vectorizer]( https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html) .
+
+
+ Images: ![Flow of Count Vectorizer](https://www.researchgate.net/publication/354354484/figure/fig2/AS:1080214163595268@1634554534648/Illustration-of-count-vectorization.jpg) .
+
+  Images: ![Flow of Count Vectorizer](https://www.educative.io/api/edpresso/shot/5197621598617600/image/6596233398321152) .
