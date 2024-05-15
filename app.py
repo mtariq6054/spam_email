@@ -17,25 +17,20 @@ custom_css = """
     font-weight: bold;
     font-family: 'Time New Roman';
 }
-.prediction-button {
-    font-weight: bold !important;
-    font-family: 'Time New Roman';
-    font-size: 40px;
-    font-weight: bold;
-}
+
 
 .title {
     font-family: 'Time New Roman';
     font-size: 40px;
     font-weight: bold;
     text-align: center;
-    color: #074173;
+    color: #00224D;
 }
 .subheader {
     font-family: 'Time New Roman';
     font-size: 27px;
     font-weight: bold;
-    color: #074173;
+    color: #00224D;
 }
 
 </style>
