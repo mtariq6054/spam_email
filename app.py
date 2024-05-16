@@ -18,7 +18,6 @@ custom_css = """
     font-family: 'Time New Roman';
 }
 
-
 .title {
     font-family: 'Time New Roman';
     font-size: 40px;
@@ -94,9 +93,9 @@ if st.button("Predict", key="predict_button"):
     # Determine the result text based on the spam probability
     st.subheader("Prediction Result:")
     if spam_probability > 0.7:
-        result_text = f"This email is likely spam with a probability of {spam_probability:.2f}."
+        result_text = f"This email is likely spam with a probability of {spam_probability:.1f}"
     else:
-        result_text = f"This email is likely not spam with a probability of {spam_probability:.2f}."
+        result_text = f"This email is likely not spam with a probability of {spam_probability:.1f}"
     st.markdown(f'<div class="prediction-result">{result_text}</div>', unsafe_allow_html=True)
 
 
